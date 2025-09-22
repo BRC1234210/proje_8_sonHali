@@ -102,7 +102,9 @@ public class Calisan {
     public String toString() {
 
         // TODO toString() metheodunu doldurunuz
-       System.out.println("conflict deneme");
+
+        System.out.println("conflig deneme değil");
+
 
         return  "Calisan ID : '" + calisanId + "', Isim Soyisim : '" + adSoyad + "', Maas : '" + maas + "', Departman : '" + getDepartmanAdi() + "'" ;
 
