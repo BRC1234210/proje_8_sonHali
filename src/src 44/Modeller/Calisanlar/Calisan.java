@@ -13,14 +13,14 @@ public class Calisan {
     private int maas;
     private Departman Departman;
     private String isimKodu = "";
-    private static int sayac = 0;
+    private static int sayac = 250;
 
     public Calisan(String adSoyad, int maas, String departmanKodu) {
         this.adSoyad = adSoyad;
         this.maas = maas;
         setDepartman(departmanKodu);
         this.setCalisanId();
-
+        sayac++;
         Calisanlar.addACalisan(this);
 
     }
