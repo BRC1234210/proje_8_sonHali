@@ -103,7 +103,6 @@ public class Calisan {
 
         // TODO toString() metheodunu doldurunuz
 
-        System.out.println("conflig deneme değil");
 
 
         return  "Calisan ID : '" + calisanId + "', Isim Soyisim : '" + adSoyad + "', Maas : '" + maas + "', Departman : '" + getDepartmanAdi() + "'" ;
