@@ -71,7 +71,6 @@ public class Calisan {
     public String getDepartmanAdi() {
         String kod = getDepartman().getDepartmanKodu();
 
-        System.out.println("barış cansız");
         switch (kod) {
             case "BTD":
                 return "Bilişim Teknolojileri Departmanı";
@@ -103,7 +102,9 @@ public class Calisan {
     public String toString() {
 
         // TODO toString() metheodunu doldurunuz
-       System.out.println("conflict deneme");
+
+        System.out.println("conflig deneme değil");
+
 
         return  "Calisan ID : '" + calisanId + "', Isim Soyisim : '" + adSoyad + "', Maas : '" + maas + "', Departman : '" + getDepartmanAdi() + "'" ;
 
