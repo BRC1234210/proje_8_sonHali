@@ -92,7 +92,6 @@ public class Calisan {
                     int oran= calisan.getDepartman().getZamOrani();
                     calisan.maas= calisan.maas+ (calisan.maas*oran/100);
                     System.out.println("zam yapıldı ");
-                    System.out.println("barış cansız");
                     return;
                 }
             }
