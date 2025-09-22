@@ -92,7 +92,6 @@ public class Calisan {
                     int oran= calisan.getDepartman().getZamOrani();
                     calisan.maas= calisan.maas+ (calisan.maas*oran/100);
                     System.out.println("zam yapıldı ");
-                    System.out.println("barış cansız");
                     return;
                 }
             }
@@ -103,7 +102,9 @@ public class Calisan {
     public String toString() {
 
         // TODO toString() metheodunu doldurunuz
+
         System.out.println("conflig deneme değil");
+
 
         return  "Calisan ID : '" + calisanId + "', Isim Soyisim : '" + adSoyad + "', Maas : '" + maas + "', Departman : '" + getDepartmanAdi() + "'" ;
 
