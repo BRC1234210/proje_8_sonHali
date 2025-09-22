@@ -37,7 +37,6 @@ public class Calisan {
         for (Departman depart: Departmanlar.getDepartmanList() ){
             if (depart.getDepartmanKodu().equalsIgnoreCase(departman));
             this.Departman=depart;
-            System.out.println("barış buradaaa");
         }
     }
 
