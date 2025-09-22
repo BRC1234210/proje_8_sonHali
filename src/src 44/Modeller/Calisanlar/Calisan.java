@@ -37,12 +37,8 @@ public class Calisan {
         for (Departman depart: Departmanlar.getDepartmanList() ){
             if (depart.getDepartmanKodu().equalsIgnoreCase(departman));
             this.Departman=depart;
+            System.out.println("barış buradaaa");
         }
-
-
-
-
-
     }
 
 
@@ -88,8 +84,7 @@ public class Calisan {
         }
     }
 
-
-        public static void zamYap(String calisanId) {
+    public static void zamYap(String calisanId) {
         if (calisanId.equals("")){
             System.out.println("böyle bir çalışan yok");
         }else {
@@ -102,12 +97,7 @@ public class Calisan {
                 }
             }
         }
-
-
-
-
     }
-
 
     @Override
     public String toString() {
@@ -116,9 +106,6 @@ public class Calisan {
         // İpucu: Detayli anlatim EmployeesRequirements.pdf içerisinde.
 
         return  "Calisan ID : '" + calisanId + "', Isim Soyisim : '" + adSoyad + "', Maas : '" + maas + "', Departman : '" + getDepartmanAdi() + "'" ;
-
-
-
 
     }
 }
