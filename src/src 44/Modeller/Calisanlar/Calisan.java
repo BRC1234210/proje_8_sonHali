@@ -102,8 +102,7 @@ public class Calisan {
     public String toString() {
 
         // TODO toString() metheodunu doldurunuz
-        // İpucu: Detayli anlatim EmployeesRequirements.pdf içerisinde.
-
+        System.out.println("conflict denem");
         return  "Calisan ID : '" + calisanId + "', Isim Soyisim : '" + adSoyad + "', Maas : '" + maas + "', Departman : '" + getDepartmanAdi() + "'" ;
 
     }
