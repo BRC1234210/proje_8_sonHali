@@ -71,7 +71,6 @@ public class Calisan {
     public String getDepartmanAdi() {
         String kod = getDepartman().getDepartmanKodu();
 
-        System.out.println("barış cansız");
         switch (kod) {
             case "BTD":
                 return "Bilişim Teknolojileri Departmanı";
