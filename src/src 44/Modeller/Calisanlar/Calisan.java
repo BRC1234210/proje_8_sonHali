@@ -21,6 +21,7 @@ public class Calisan {
         setDepartman(departmanKodu);
         this.setCalisanId();
         Calisanlar.addACalisan(this);
+        sayac++;
 
     }
 
@@ -42,7 +43,7 @@ public class Calisan {
 
 
     private void setCalisanId() {
-        sayac += Calisanlar.getCalisanList().size()+1;
+        sayac = Calisanlar.getCalisanList().size();
         this.calisanId = this.Departman.getDepartmanKodu()+ sayac + getCalisanIsimKodu();
 
     }
