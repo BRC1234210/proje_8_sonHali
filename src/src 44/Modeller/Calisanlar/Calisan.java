@@ -20,7 +20,6 @@ public class Calisan {
         this.maas = maas;
         setDepartman(departmanKodu);
         this.setCalisanId();
-        sayac++;
         Calisanlar.addACalisan(this);
 
     }
