@@ -101,6 +101,8 @@ public class Calisan {
     @Override
     public String toString() {
 
+
+        //
         // TODO toString() metheodunu doldurunuz
 
 
