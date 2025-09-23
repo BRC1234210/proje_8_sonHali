@@ -19,9 +19,10 @@ public class Calisan {
         this.adSoyad = adSoyad;
         this.maas = maas;
         setDepartman(departmanKodu);
-        this.setCalisanId();
+
+        sayac++;                // önce artır
+        this.setCalisanId();    // sonra ID oluştur
         Calisanlar.addACalisan(this);
-        sayac++;
 
     }
 
@@ -43,10 +44,10 @@ public class Calisan {
 
 
     private void setCalisanId() {
-        sayac = Calisanlar.getCalisanList().size();
         this.calisanId = this.Departman.getDepartmanKodu()+ sayac + getCalisanIsimKodu();
 
     }
+
 
     private String getCalisanIsimKodu() {
         String[] isimler = adSoyad.split(" ");
