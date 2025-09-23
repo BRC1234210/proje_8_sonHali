@@ -35,8 +35,9 @@ public class Calisan {
 
     private void setDepartman(String departman) {
         for (Departman depart: Departmanlar.getDepartmanList() ){
-            if (depart.getDepartmanKodu().equalsIgnoreCase(departman));
-            this.Departman=depart;
+            if (depart.getDepartmanKodu().equalsIgnoreCase(departman)) {
+                this.Departman = depart;
+            }
         }
     }
 
