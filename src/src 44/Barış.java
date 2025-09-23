@@ -4,5 +4,6 @@ public class Barış {
         System.out.println("güncelleme yapıldı ");
 
         System.out.println("Zilha Kalac");
+        System.out.println("Proje bitsin artık!! yetti gari be..");
     }
 }
